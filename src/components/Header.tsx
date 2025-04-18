@@ -15,7 +15,7 @@ export const Header = () => {
   }, [theme]);
 
   return (
-    <header className="flex w-2/3 items-center justify-between rounded-[1rem] bg-[hsl(200_60%_99%)] p-3 shadow-md dark:bg-[hsl(226_25%_17%)]">
+    <header className="flex w-2/3 items-center justify-between rounded-[1rem] border-1 border-[hsl(0_0%_93%)] bg-[hsl(200_60%_99%)] p-3 shadow-md dark:border-none dark:bg-[hsl(226_25%_17%)]">
       <img
         src={
           theme === 'dark'
@@ -27,7 +27,7 @@ export const Header = () => {
       />
       <div
         onClick={toggleTheme}
-        className="flex h-12 w-12 cursor-pointer items-center justify-center rounded-[10px] bg-[hsl(0_0%_93%)] hover:bg-[hsl(0_0%_78%)] dark:bg-[hsl(225_23%_24%)] dark:hover:bg-[hsl(226_11%_37%)]"
+        className="flex h-12 w-12 cursor-pointer items-center justify-center rounded-[10px] bg-[hsl(0_0%_93%)] hover:bg-[hsl(0_0%_78%)] focus:ring-2 focus:ring-[hsl(3_86%_64%)] focus:ring-offset-1 dark:focus:ring-offset-transparent dark:bg-[hsl(225_23%_24%)] dark:hover:bg-[hsl(226_11%_37%)]"
       >
         <img
           alt="Toggle dark mode"
