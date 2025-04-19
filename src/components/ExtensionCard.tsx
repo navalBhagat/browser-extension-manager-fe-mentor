@@ -18,7 +18,7 @@ export const ExtensionCard = ({
           <span className="text-xl font-bold text-[hsl(227_75%_14%)] dark:text-white">
             {extension.name}
           </span>
-          <span className="text-md leading-6 text-gray-500 dark:text-gray-400">
+          <span className="text-sm lg:text-base leading-6 text-gray-500 dark:text-gray-400">
             {extension.description}
           </span>
         </div>

@@ -48,7 +48,7 @@ function App() {
   return (
     <div className="flex flex-col items-center justify-center p-10">
       <Header />
-      <main className="flex w-2/3 flex-col items-center justify-center">
+      <main className="flex w-19/20 flex-col items-center justify-center lg:w-2/3">
         <NavBar activeFilter={activeFilter} setActiveFilter={setActiveFilter} />
         <ExtensionsGrid
           extensions={filteredExtensions}

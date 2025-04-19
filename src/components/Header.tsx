@@ -15,7 +15,7 @@ export const Header = () => {
   }, [theme]);
 
   return (
-    <header className="flex w-2/3 items-center justify-between rounded-[1rem] border-1 border-[hsl(0_0%_93%)] bg-[hsl(200_60%_99%)] p-3 shadow-md dark:border-none dark:bg-[hsl(226_25%_17%)]">
+    <header className="lg:w-2/3 items-center flex w-19/20 justify-between rounded-[1rem] border-1 border-[hsl(0_0%_93%)] bg-[hsl(200_60%_99%)] p-3 shadow-md dark:border-none dark:bg-[hsl(226_25%_17%)]">
       <img
         src={
           theme === 'dark'

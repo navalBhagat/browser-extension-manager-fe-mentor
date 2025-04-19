@@ -9,7 +9,7 @@ export const NavBar = ({
   setActiveFilter: (value: string) => void;
 }) => {
   return (
-    <div className="mt-15 flex h-full w-full items-center justify-between ">
+    <div className="mt-15 flex flex-col gap-4 h-full w-full items-center justify-between lg:flex-row lg:gap-0 ">
       <span className="text-4xl font-bold text-[hsl(227_75%_14%)] dark:text-white font-sans">
         Extensions List
       </span>
