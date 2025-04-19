@@ -1,12 +1,16 @@
-import { useState } from 'react';
 import Pill from './Pill';
-import { filterOptions } from '../constants';
+import { filterOptions } from '../lib/constants';
 
-export const NavBar = () => {
-  const [activeFilter, setActiveFilter] = useState('All');
+export const NavBar = ({
+  activeFilter,
+  setActiveFilter,
+}: {
+  activeFilter: string;
+  setActiveFilter: (value: string) => void;
+}) => {
   return (
-    <div className="mt-15 flex h-full w-full items-center justify-between font-sans">
-      <span className="text-3xl font-bold text-[hsl(227_75%_14%)] dark:text-white">
+    <div className="mt-15 flex h-full w-full items-center justify-between ">
+      <span className="text-4xl font-bold text-[hsl(227_75%_14%)] dark:text-white font-sans">
         Extensions List
       </span>
       <div className="flex h-full items-center justify-between gap-1">

@@ -27,7 +27,7 @@ export const Header = () => {
       />
       <div
         onClick={toggleTheme}
-        className="flex h-12 w-12 cursor-pointer items-center justify-center rounded-[10px] bg-[hsl(0_0%_93%)] hover:bg-[hsl(0_0%_78%)] focus:ring-2 focus:ring-[hsl(3_86%_64%)] focus:ring-offset-1 dark:focus:ring-offset-transparent dark:bg-[hsl(225_23%_24%)] dark:hover:bg-[hsl(226_11%_37%)]"
+        className="flex h-12 w-12 cursor-pointer items-center justify-center rounded-[10px] bg-[hsl(0_0%_93%)] hover:bg-[hsl(0_0%_78%)] focus:ring-2 focus:ring-[hsl(3_86%_64%)] focus:ring-offset-1 dark:bg-[hsl(225_23%_24%)] dark:hover:bg-[hsl(226_11%_37%)] dark:focus:ring-offset-transparent"
       >
         <img
           alt="Toggle dark mode"
